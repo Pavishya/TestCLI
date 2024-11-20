@@ -1,0 +1,28 @@
+In Tableau, "Actions" are interactive features that allow users to dynamically filter, highlight, or navigate between different views within a dashboard by clicking on specific marks on a chart, essentially creating a more engaging and interactive experience for data analysis.actions in the tableau are used to add an interactive element to these dashboards and let the user build customized dashboards.
+
+ to access actions, navigate to "Dashboard" > "Actions" and then choose the type of action you want to create, such as "Filter Action", "Highlight Action", or "URL Action" depending on your desired functionality
+In Tableau, "actions" are crucial because they allow users to interact dynamically with visualizations on a dashboard, enabling them to explore data more deeply by filtering, highlighting, or navigating between different views based on their selections, ultimately creating a more engaging and insightful user experience.
+
+Types of actions
+
+Go to URL. Create hyperlinks to external resources, such as a web page or file.
+
+Filter. Use the data from one view to filter data in another.
+Highlight. Call attention to marks of interest by dimming all others.
+Go to Sheet. Simplify navigation to other worksheets, dashboards, or stories in the same workbook.
+Change Parameter. Let users change parameter values by directly interacting with marks on a viz.
+Change Set Values. Let users change the values in a set by directly interacting with marks on a viz.
+
+
+
+Now lets go through one by one 
+
+Go to URL :
+
+A URL action is a hyperlink that points to a web page, file, or other web-based resource outside of Tableau.When you set up a URL Action, you can specify an external URL to be opened when a user clicks on a specific part of the visualization, such as a mark, field, or a dashboard element.A URL action builds on this and allows your end users to control what is shown on the web page by passing a value into the URL link when the user interacts with a chart. 
+
+How to Create a URL Action in Tableau:
+
+1.Go to the "Worksheet" or "Dashboard": Open the worksheet or dashboard where you want to create the action.
+2.Navigate to the "Worksheet" Menu: Select Worksheet > Actions….
+3.Add a New Action: Click on Add Action and then choose Go To URL.
